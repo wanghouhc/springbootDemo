@@ -1,0 +1,30 @@
+server:
+  port: 18083
+  servlet:
+    context-path: /demo
+
+name:
+  zhangshan
+age:
+  19
+#对象（map）键值对集合
+person:
+#  name: ${name}  引用上面的name
+  name: lisi
+  age: 18
+  address:
+    - beijin
+    - shanghai
+#在同一行的写法
+#person: {name: zhangshan}
+
+#数组
+address:
+  - beijin
+  - shanghai
+#在同一行的写法
+#address: [beijin,shanghai]
+
+#纯量
+msg1: 'hello \n world'
+msg2: "hello \n world"

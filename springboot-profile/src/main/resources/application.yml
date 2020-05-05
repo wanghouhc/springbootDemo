@@ -1,0 +1,30 @@
+
+---
+
+server:
+  port: 8081
+
+spring:
+  profiles: dev
+
+
+---
+
+server:
+  port: 8082
+
+spring:
+  profiles: test
+
+---
+server:
+  port: 8083
+
+spring:
+  profiles: pro
+---
+
+#可以在vm中指定
+spring:
+  profiles:
+    active: pro
